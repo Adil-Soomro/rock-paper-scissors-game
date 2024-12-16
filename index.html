@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="heading">
+            <h1>Rock Paper Scissors Game</h1>
+        </div>
+        <p class="Rule_text">The first player to reach 10 points wins the game.</p>
+
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="./images/rock.png" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="./images/paper.png" alt="">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="./images/scissors.png" alt="">
+            </div>
+        </div>
+        <div class="score-board">
+            <div class="user-score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="comp-score">
+                <p id="comp-score">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+        <div select_mesg>
+            <div class="user_select"></div>
+            <div class="comp_select"></div>
+        </div>
+
+        <div class="mesg-container">
+            <button class="message" id="Message_btn">Play Your Move</button>
+        </div>
+
+
+
+
+    </div>
+    <div class="Credits">
+        <p>Created with <span class="heart">❤</span> by <a target="_blank" href="https://github.com/Adil-Soomro">Adil Soomro</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
